@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Formulário.css">
+    <link rel="stylesheet" href="Validação.html">
+</head>
+<body>
+    <center>
+
+        <h1> Formulário de Validação</h1>
+    
+    <fieldset>
+       <legend> Dados Pessoais: </legend>
+       <form id="Formulário">
+    
+       <p><label for="inome"> Nome: </label>
+       <input type="name" name="name" id="inome" placeholder="Digite seu nome " minlength="3" maxlength="30" required name = 'nome'>
+       </p> 
+     
+       <p>
+          <label for="isobrenome">Sobrenome: </label>
+           <input type="sobrenome" name="sobrenome" id="isobrenome" placeholder="Digite seu sobrenome" required sobrenome = 'sobrenome'>
+       </p>
+    
+    <p>
+    
+      <label for="iemail">E-mail: </label>   
+      <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required e-mail = 'e-mail'> 
+    
+    </p>
+    
+    <p>
+      <label for="idate">Data: </label>
+       <input type="date" name="data" id="idate" placeholder="Digite sua data de nascimento" required date = 'data'>
+    
+    </p>
+    
+    
+    <button type="submit">Enviar</button>
+    <a href="Validação.html" target="_blank" class = "Links"></a>
+    </form>
+    </fieldset>
+    
+    <div id="Dados Salvos">
+        <p> Nome:         <span id="nomeSalvo"></span></p>
+        <p> Sobrenome:   <span id="sobrenomeSalvo"></span> </p>
+        <p> E-mail:      <span id="emailSalvo"></span> </p>
+        <p> Data:        <span id="dataSalva"></span> </p>
+
+        
+    </div>
+       
+    </center>
+    
+    <script>
+           alert("Seja bem-vindo ao nosso site!")
+           confirm("Coloque informações válidas para que ocorra tudo certo!")
+
+    </script>
+</body>
+</html>

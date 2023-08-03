@@ -1,0 +1,35 @@
+body{background-color: blue;
+     
+}
+
+fieldset{ border-style: dashed;
+          background-color: blueviolet;
+          font-size: 30px;
+
+
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    from{box-shadow: 10px 10px 10px black;}
+    to{box-shadow: 10px 10px 10px red;}
+
+
+}
+
+h1{text-shadow: 5px 5px 5px red;
+
+}
+
+input{
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    from{box-shadow: 10px 10px 10px black;}
+    to{box-shadow: 10px 10px 10px red;}
+}
